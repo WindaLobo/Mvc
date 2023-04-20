@@ -20,7 +20,7 @@ public class Controlador implements ActionListener  {
     public void iniciar(){
         view.setTitle("MVC Multiplicar");
         view.setLocationRelativeTo(null);
-   
+        view.setVisible(true);
     }
 
     @Override

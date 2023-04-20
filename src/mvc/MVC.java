@@ -13,7 +13,7 @@ public class MVC {
       Vista view= new Vista();
       Controlador control = new Controlador(view,mod);
       control.iniciar();
-      view.setVisible(true);
+
       
     }
     
